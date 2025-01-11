@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Login</title>
+</head>
+<body>
+    <h1>Login to Fetch Emails</h1>
+    <form action="/fetch-emails" method="POST">
+        <label for="email_user">Email:</label>
+        <input type="email" id="email_user" name="email_user" required><br><br>
+        <label for="email_pass">Password:</label>
+        <input type="password" id="email_pass" name="email_pass" required><br><br>
+        <label for="server">IMAP Server:</label>
+        <input type="text" id="server" name="server" value="imap.gmail.com"><br><br>
+        <label for="since_date">Since Date:</label>
+        <input type="text" id="since_date" name="since_date" value="01-Aug-2023"><br><br>
+        <button type="submit">Fetch Emails</button>
+    </form>
+</body>
+</html>
