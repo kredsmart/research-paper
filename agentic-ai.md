@@ -1,7 +1,3 @@
-Designing an **agentic workflow** for a **fintech call center** means leveraging **autonomous AI agents** that can interact with both customers and backend financial systems efficiently while maintaining **security and compliance**. Here’s a **multi-agent workflow** that optimizes this process:
-
----
-
 ### **🔹 Agentic Workflow for a Fintech Call Center**
 📞 **Customer Initiates Contact** → 🤖 **AI IVR Agent** → 🎯 **Issue Routing Agent** → 🏦 **Financial Data Retrieval Agent** → 📊 **Resolution & Compliance Agent** → 💡 **Personalized Financial Advice Agent** → 📈 **Analytics & Continuous Improvement Agent**
 
