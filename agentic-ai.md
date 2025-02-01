@@ -8,7 +8,7 @@ Designing an **agentic workflow** for a **fintech call center** means leveraging
 ---
 
 ### **🛠 Breakdown of AI Agents & Workflow**
-1️⃣ **Customer Interaction Agent (AI IVR)**
+1️⃣ **Customer Interaction Agent (AI IVR)** (Validate with spinny if rerouting is working)
    - Identifies the caller using voice recognition or customer ID.
    - Uses NLP to understand the customer's query.
    - Classifies the issue (e.g., lost card, transaction dispute, loan inquiry).
@@ -20,7 +20,7 @@ Designing an **agentic workflow** for a **fintech call center** means leveraging
      - **Complex:** Requires human intervention.
    - Routes the customer either to an **Automated AI Agent** or a **Human Agent**.
 
-3️⃣ **Financial Data Retrieval Agent**
+3️⃣ **Financial Data Retrieval Agent** (Kredsmart comes into the picture )
    - Securely retrieves customer data using **API calls** to backend systems.
    - Checks **past transactions, account details, fraud alerts, and credit scores**.
    - Ensures compliance with **data security laws (e.g., GDPR, PCI DSS)**.
@@ -31,7 +31,7 @@ Designing an **agentic workflow** for a **fintech call center** means leveraging
    - Ensures all actions align with **financial regulations**.
    - Logs interactions for **audit and regulatory purposes**.
 
-5️⃣ **Personalized Financial Advice Agent**
+5️⃣ **Personalized Financial Advice Agent**(Kredsmart comes into the picture )
    - Uses **AI-driven financial insights** to suggest solutions.
    - Offers recommendations like:
      - Better investment strategies.
@@ -43,22 +43,3 @@ Designing an **agentic workflow** for a **fintech call center** means leveraging
    - Identifies **trending customer concerns** to improve service.
    - Enhances predictive analytics for fraud detection & proactive support.
 
----
-
-### **🔄 Data Flow & Agent Coordination**
-1. **Caller Identifies Issue** → AI IVR captures intent.
-2. **Issue Classification** → Routed to Automated or Human Agent.
-3. **Financial Data Retrieval** → Fetches required information.
-4. **Resolution & Compliance Check** → Ensures proper handling.
-5. **Personalized Insights** → If applicable, offers financial advice.
-6. **Call Logs & Learning** → Improves future customer interactions.
-
----
-
-### **🚀 Key Technologies Enabling This Workflow**
-- **NLP & Speech Recognition:** OpenAI Whisper, Google Dialogflow.
-- **Secure Data APIs:** OAuth2, Zero Trust Architecture.
-- **AI-driven Analytics:** LLMs for sentiment analysis & predictive modeling.
-- **Automated Compliance Monitoring:** Ensures adherence to regulations.
-
-Would you like a **detailed system architecture** or a **demo prototype** for this workflow? 🚀
